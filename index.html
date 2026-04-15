@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Editor</title>
+</head>
+<body>
+    <header>
+        <h1>Video Editor</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Upload Video</h2>
+            <input type="file" id="video-upload" accept="video/*">
+            <button id="upload-btn">Upload</button>
+        </section>
+        <section>
+            <h2>Import Video</h2>
+            <input type="text" id="video-url" placeholder="Enter video URL">
+            <button id="import-btn">Import</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Video Editor</p>
+    </footer>
+    <script>
+        document.getElementById('upload-btn').addEventListener('click', function() {
+            // Upload video logic
+        });
+        document.getElementById('import-btn').addEventListener('click', function() {
+            // Import video logic
+        });
+    </script>
+</body>
+</html>
